@@ -61,7 +61,7 @@ const Header = () => {
 
     return (
         <header className='flex items-center justify-between h-20 px-6 md:pr-0 lg:pt-6 lg:h-32 lg:pl-10'>
-            <img className='h-10 w-10' src={logo} alt="" />
+            <Link to={'/'}><img className='h-10 w-10' src={logo} alt="" /></Link>
             <div className='border border-neutral-600 hidden w-2/5 absolute left-28 z-10 lg:block'></div>
             <nav className='md:glass-white md:pr-6 md:w-full md:h-full md:ml-6 lg:w-3/5 lg:pr-0'>
                 {isMenuOpen ? (
