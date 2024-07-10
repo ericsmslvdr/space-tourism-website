@@ -1,9 +1,12 @@
+import MainLayout from "@/components/main-layout"
 
 const Crew = () => {
     return (
-        <div>
-            <h1>Crew Page</h1>
-        </div>
+        <MainLayout>
+            <div>
+                <h1>Crew Page</h1>
+            </div>
+        </MainLayout>
     )
 }
 

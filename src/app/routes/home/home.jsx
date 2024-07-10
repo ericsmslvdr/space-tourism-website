@@ -1,12 +1,12 @@
-import { ContentLayout } from "@/components/layout"
+import MainLayout from "@/components/main-layout"
 
 const Home = () => {
     return (
-        <ContentLayout >
+        <MainLayout>
             <div>
                 <h1>Home Page</h1>
             </div>
-        </ContentLayout>
+        </MainLayout>
     )
 }
 

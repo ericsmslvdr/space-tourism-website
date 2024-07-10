@@ -1,5 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-barlow text-white;
+  }
+
+  .glass-dark {
+    @apply backdrop-blur-xl bg-black/10;
+  }
+
+  .glass-white {
+    @apply backdrop-blur-xl bg-white/10;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
 }
+
+/* From https://css.glass */
+/* background: rgba(255, 255, 255, 0.1);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px); */
