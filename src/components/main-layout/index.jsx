@@ -5,8 +5,7 @@ import bgHomeMobile from "../../assets/home/background-home-mobile.jpg";
 
 const MainLayout = ({ children }) => {
     return (
-        <div
-            className={`h-screen bg-cover bg-[image:var(--bgMobile)] md:bg-[image:var(--bgTablet)] lg:bg-[image:var(--bgDesktop)]`}
+        <main className={`h-screen flex flex-col bg-cover bg-[image:var(--bgMobile)] md:bg-[image:var(--bgTablet)] lg:bg-[image:var(--bgDesktop)]`}
             style={{
                 '--bgMobile': `url(${bgHomeMobile})`,
                 '--bgTablet': `url(${bgHomeTablet})`,
@@ -15,7 +14,7 @@ const MainLayout = ({ children }) => {
         >
             <Header />
             {children}
-        </div>
+        </main>
     )
 }
 

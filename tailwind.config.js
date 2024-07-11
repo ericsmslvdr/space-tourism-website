@@ -10,12 +10,7 @@ export default {
         'dark-navy': '#0b0d17',
         'light-blue': '#d0d6f9',
         'white': '#ffffff'
-      },
-      // backgroundImage: {
-      //   'bgHomeDesktop': ,
-      //   'bgHomeTablet': ,
-      //   'bgHomeMobile'
-      // }
+      }
     },
     fontFamily: {
       'barlow': ['Barlow', 'sans-serif'],
