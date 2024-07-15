@@ -4,11 +4,11 @@ const DestinationDetails = ({ name, image, description, distance, travel, handle
     const allCapsName = name.toUpperCase();
 
     return (
-        <div className='w-full flex flex-col items-center justify-center px-4 lg:flex-row lg:pr-48'>
-            <div className='w-full grid place-items-center py-16 lg:py-36'>
+        <div className='w-full h-full flex flex-col items-center justify-center px-4 gap-6 lg:flex-row'>
+            <div className='w-full grid place-content-center lg:max-w-2xl'>
                 <img src={image} alt="" className='size-[150px] md:size-[300px] lg:size-[480px]' />
             </div>
-            <div className='w-full lg:w-3/5'>
+            <div className='w-full lg:max-w-2xl'>
                 <ul className='flex justify-evenly max-w-[350px] mx-auto lg:mx-0 lg:justify-start lg:gap-8'>
                     {destinationNames.map((destName, index) => (
                         <li

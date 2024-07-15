@@ -15,7 +15,7 @@ const DestinationSection = () => {
     console.log("DATA: ", data);
 
     return (
-        <section className="h-full px-4 pt-4 md:pt-16">
+        <section className="grow px-4 pt-4 md:pt-16">
             <div className='h-full flex flex-col md:w-5/6 mx-auto'>
                 <p className='font-barlow-c text-light-blue tracking-widest text-center md:text-start text-[16px] md:text-[20px] lg:text-[28px]'>
                     <span className='pr-4 font-bold text-gray-500'>01</span>
