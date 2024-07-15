@@ -59,7 +59,7 @@ const MainLayout = ({ children }) => {
 
 
     return (
-        <main className={`h-auto w-auto flex flex-col bg-cover bg-[image:var(--bgMobile)] md:bg-[image:var(--bgTablet)] lg:bg-[image:var(--bgDesktop)]`}
+        <main className={`border border-green-500 h-full w-full flex flex-col bg-cover bg-[image:var(--bgMobile)] md:bg-[image:var(--bgTablet)] lg:bg-[image:var(--bgDesktop)]`}
             style={{
                 '--bgMobile': `url(${bgMobile})`,
                 '--bgTablet': `url(${bgTablet})`,

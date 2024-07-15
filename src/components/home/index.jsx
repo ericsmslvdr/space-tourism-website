@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 const HomeSection = () => {
     return (
-        <section className="h-full px-4 pt-4 md:pt-16">
-            <div className="h-full flex flex-col md:w-3/4 mx-auto md:pb-12 lg:pb-32 lg:flex-row lg:items-end lg:justify-end">
+        <section className="grow h-full px-4 pt-4 md:pt-16">
+            <div className="h-full flex flex-col md:w-3/4 mx-auto lg:pb-16 lg:flex-row lg:items-end lg:justify-end">
                 <div className="w-full h-full text-center lg:flex lg:flex-col lg:justify-end lg:text-start">
                     <h2 className='font-barlow-c md:text-[28px] tracking-widest'>SO, YOU WANT TO TRAVEL TO</h2>
                     <h1 className='font-bellefair text-[80px] md:text-[144px]'>SPACE</h1>
