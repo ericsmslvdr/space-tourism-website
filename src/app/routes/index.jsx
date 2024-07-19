@@ -26,4 +26,6 @@ export const router = createBrowserRouter([
         path: "*",
         element: <NotFound />
     }
-])
+], {
+    basename: "/space-tourism-website/"
+})
