@@ -17,7 +17,7 @@ const CrewDetails = ({ position, name, description, image, renderDots }) => {
             <div className='flex-1'>
                 {/* add fade */}
                 <div className='w-full h-full grid place-content-center'>
-                    <img src={image} alt="" className='h-80 md:h-[32rem] lg:h-[40rem]' />
+                    <img src={image} alt="" className='h-80 md:h-[32rem]' />
                 </div>
             </div>
         </div>

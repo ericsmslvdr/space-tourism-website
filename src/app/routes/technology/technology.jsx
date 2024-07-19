@@ -1,11 +1,10 @@
 import MainLayout from "@/components/main-layout"
+import TechnologySection from "@/components/technology"
 
 const Technology = () => {
     return (
         <MainLayout>
-            <div>
-                <h1>Technology Page</h1>
-            </div>
+            <TechnologySection />
         </MainLayout>
     )
 }
